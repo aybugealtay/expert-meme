@@ -44,12 +44,7 @@ if __name__ == '__main__':
        install_requires=[
            'click',
        ],
-       # Add command line function to automatically run the main function from animated_barnacle.cli
-       entry_points={
-           'console_scripts': [
-               'animated_barnacle = animated_barnacle.cli:main',
-           ]
-       },
+
 
        long_description=get_long_description(),
        classifiers=CLASSIFIERS,
