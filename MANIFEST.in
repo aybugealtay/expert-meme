@@ -9,3 +9,4 @@ recursive-include tests *.py
 
 
 global-exclude .idea/*
+global-exclude .idea
