@@ -2,7 +2,8 @@ class Reanimator:
     """This class represents lifeless bodies that can be reanimated"""
 
     def __init__(self, corpse, alive=False):
-        """
+        """something in the first line
+
         :param corpse: The name of the corpse
         :type corpse: str
         :param alive: Is the corpse alive? Defaults to False.
